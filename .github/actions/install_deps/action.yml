@@ -6,7 +6,8 @@ runs:
   steps:
     - uses: actions/setup-node@v3
       with:
-        node-version: 18.16.1
+        # LTS https://nodejs.org/en/blog/release/v20.9.0
+        node-version: 20.9.0
 
     # https://github.com/actions/cache/blob/main/examples.md#node---yarn
     # https://dev.to/mattpocockuk/how-to-cache-nodemodules-in-github-actions-with-yarn-24eh
